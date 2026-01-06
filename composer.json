@@ -1,0 +1,46 @@
+{
+    "name": "sourcedopen/tags",
+    "description": "A laravel package for tags",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sourcedopen\\Tags\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sourcedopen\\Tags\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chinmay Purav",
+            "email": "chinpurav@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "illuminate/database": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "pestphp/pest": "^4.3",
+        "laravel/pint": "^1.27"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sourcedopen\\Tags\\TagsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
