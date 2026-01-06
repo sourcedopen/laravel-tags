@@ -1,13 +1,13 @@
 <?php
 
-namespace Sourcedopen\Tags\Tests;
+namespace SourcedOpen\Tags\Tests;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Sourcedopen\Tags\TagsServiceProvider;
-use Sourcedopen\Tags\Traits\HasTags;
+use SourcedOpen\Tags\TagsServiceProvider;
+use SourcedOpen\Tags\Traits\HasTags;
 
 class TestCase extends Orchestra
 {

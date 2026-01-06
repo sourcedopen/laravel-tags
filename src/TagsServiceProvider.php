@@ -1,6 +1,6 @@
 <?php
 
-namespace Sourcedopen\Tags;
+namespace SourcedOpen\Tags;
 
 use Illuminate\Support\ServiceProvider;
 

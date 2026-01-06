@@ -1,6 +1,6 @@
 <?php
 
-namespace Sourcedopen\Tags\Models;
+namespace SourcedOpen\Tags\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;

@@ -7,7 +7,7 @@ A Laravel package for adding tags to Eloquent models using polymorphic relations
 You can install the package via Composer:
 
 ```bash
-composer require sourcedopen/tags
+composer require SourcedOpen/tags
 ```
 
 The package will automatically register its service provider.
@@ -29,7 +29,7 @@ Use the `HasTags` trait in any model you want to be taggable:
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use Sourcedopen\Tags\Traits\HasTags;
+use SourcedOpen\Tags\Traits\HasTags;
 
 class Post extends Model
 {
@@ -40,7 +40,7 @@ class Post extends Model
 ### Creating Tags
 
 ```php
-use Sourcedopen\Tags\Models\Tag;
+use SourcedOpen\Tags\Models\Tag;
 
 $tag = Tag::create([
     'name' => 'Laravel',

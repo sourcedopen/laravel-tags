@@ -5,12 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sourcedopen\\Tags\\": "src/"
+            "SourcedOpen\\Tags\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sourcedopen\\Tags\\Tests\\": "tests/"
+            "SourcedOpen\\Tags\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sourcedopen\\Tags\\TagsServiceProvider"
+                "SourcedOpen\\Tags\\TagsServiceProvider"
             ]
         }
     },

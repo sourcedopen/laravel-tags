@@ -1,6 +1,6 @@
 <?php
 
-use Sourcedopen\Tags\Models\Tag;
+use SourcedOpen\Tags\Models\Tag;
 
 it('can create a tag', function () {
     $tag = Tag::create([

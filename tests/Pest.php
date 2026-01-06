@@ -1,5 +1,5 @@
 <?php
 
-use Sourcedopen\Tags\Tests\TestCase;
+use SourcedOpen\Tags\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

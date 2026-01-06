@@ -1,7 +1,7 @@
 <?php
 
-use Sourcedopen\Tags\Models\Tag;
-use Sourcedopen\Tags\Tests\Post;
+use SourcedOpen\Tags\Models\Tag;
+use SourcedOpen\Tags\Tests\Post;
 
 it('can attach tags to a model', function () {
     $post = Post::create(['title' => 'Test Post']);

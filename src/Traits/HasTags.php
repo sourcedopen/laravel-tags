@@ -1,9 +1,9 @@
 <?php
 
-namespace Sourcedopen\Tags\Traits;
+namespace SourcedOpen\Tags\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use Sourcedopen\Tags\Models\Tag;
+use SourcedOpen\Tags\Models\Tag;
 
 trait HasTags
 {
