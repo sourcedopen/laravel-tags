@@ -7,7 +7,7 @@ A Laravel package for adding tags to Eloquent models using polymorphic relations
 You can install the package via Composer:
 
 ```bash
-composer require SourcedOpen/tags
+composer require sourcedopen/tags
 ```
 
 The package will automatically register its service provider.
