@@ -1,5 +1,5 @@
 {
-    "name": "sourcedopen/tags",
+    "name": "sourcedopen/laravel-tags",
     "description": "A laravel package for tags",
     "type": "library",
     "license": "MIT",
